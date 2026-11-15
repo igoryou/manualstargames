@@ -135,7 +135,7 @@ td::before{display:none}td:first-child{font-size:1em}
 </div>
 </header>
 <nav class="nav" aria-label="Seções">
-<a href="#palavras">Palavras</a><a href="#jogos">Escolher jogos</a><a href="#durante">Durante o jogo</a><a href="#imagem">Tamanho da imagem</a><a href="#config">Configurações</a><a href="#resumo">Resumo</a>
+<a href="#palavras">Palavras</a><a href="#jogos">Escolher jogos</a><a href="#durante">Durante o jogo</a><a href="#config">Configurações</a><a href="#resumo">Resumo</a>
 </nav>
 <main>
 
@@ -186,7 +186,7 @@ td::before{display:none}td:first-child{font-size:1em}
 
 <section id="durante" class="s3 dark-on-c">
 <h2>Durante o jogo</h2>
-<p>Aperte o botão de <b>pausa</b>. O menu de pausa abre com quatro opções:</p>
+<p>Durante o jogo, o <b>menu de pausa</b> mostra quatro opções:</p>
 <div class="pm" role="img" aria-label="Menu de pausa com Continue, Save State, Load State e Exit"><div>Continue</div><div>Save State</div><div>Load State <small>(Null)</small></div><div>Exit</div></div>
 <div class="grid">
 <div class="card"><b>Continue</b><p>Volta para o jogo.</p></div>
@@ -198,23 +198,6 @@ td::before{display:none}td:first-child{font-size:1em}
 <p>No modo Free play, a saída do jogo é sempre pelo menu de pausa. No modo moeda, veja o item 5.3.</p>
 </section>
 
-<section id="imagem" class="s4 dark-on-c">
-<h2>Trocar o tamanho da imagem</h2>
-<p>A placa tem 3 tamanhos de imagem. O padrão é 1280×720. Troque se a imagem não combinar com a sua tela.</p>
-<ol class="steps">
-<li><span>Com a placa <b>desligada</b>, aperte e segure o botão <b>Setting</b>.</span></li>
-<li><span>Sem soltar, <b>ligue</b> a energia.</span></li>
-<li><span>Conte 2 segundos e solte o botão.</span></li>
-<li><span>Repita os passos 1 a 3 para ir ao próximo tamanho.</span></li>
-</ol>
-<p>As duas luzinhas ao lado das entradas de vídeo mostram o tamanho atual:</p>
-<div class="grid">
-<div class="card"><b>1280×720</b><p><span class="dot on"></span>verde acesa <span class="dot y"></span>amarela acesa</p><p>Tela larga (16:9)</p></div>
-<div class="card"><b>640×480</b><p><span class="dot on"></span>verde acesa <span class="dot off"></span>amarela apagada</p><p>Tela quadrada (4:3)</p></div>
-<div class="card"><b>384×224</b><p><span class="dot off"></span>verde apagada <span class="dot y"></span>amarela acesa</p><p>Monitor CRT antigo (15 kHz)</p></div>
-</div>
-</section>
-
 <section id="config" class="s5">
 <h2>Menu de configuração</h2>
 <p><b>Como abrir:</b> aperte o botão <b>Setting</b>, no menu de jogos ou durante um jogo.</p>
@@ -222,10 +205,10 @@ td::before{display:none}td:first-child{font-size:1em}
 <div class="callout w"><b>Na dúvida, não mude</b><br>Se não tiver certeza do que uma opção faz, deixe como está. Para desfazer tudo, use <b>Factory Setting</b> (item 5.6).</div>
 
 <h3>5.1 Testar os botões (IO Test)</h3>
-<p>Serve para ver se os botões e a alavanca funcionam. A tela mostra o painel do Jogador 1 (esquerda) e do Jogador 2 (direita), com os botões A a H, o Start, a moeda (Coin) e a pausa (Pause). Aperte um botão e veja se ele responde na tela.</p>
+<p>Serve para ver se os botões e a alavanca funcionam. A tela mostra o painel do Jogador 1 (esquerda) e do Jogador 2 (direita), com os botões A a H, o Start e a moeda (Coin). Aperte um botão e veja se ele responde na tela.</p>
 <div class="scr" role="group" aria-label="Demonstração do teste de botões"><h4>Demonstração: toque nos botões e veja acender</h4><div class="io"><div class="pl"><h4>Jogador 1</h4><div class="pnl"><span class="joy" aria-hidden="true"></span><div class="bt"><button class="b b2" type="button">B</button><button class="b c" type="button">C</button><button class="b d" type="button">D</button><button class="b g" type="button">G</button><button class="b a" type="button">A</button><button class="b e" type="button">E</button><button class="b f" type="button">F</button><button class="b h" type="button">H</button></div></div>
-<div class="kr"><button class="k" type="button">Coin</button><button class="k" type="button">Pause</button><button class="k" type="button">Start</button></div></div><div class="pl"><h4>Jogador 2</h4><div class="pnl"><span class="joy" aria-hidden="true"></span><div class="bt"><button class="b b2" type="button">B</button><button class="b c" type="button">C</button><button class="b d" type="button">D</button><button class="b g" type="button">G</button><button class="b a" type="button">A</button><button class="b e" type="button">E</button><button class="b f" type="button">F</button><button class="b h" type="button">H</button></div></div>
-<div class="kr"><button class="k" type="button">Coin</button><button class="k" type="button">Pause</button><button class="k" type="button">Start</button></div></div></div></div>
+<div class="kr"><button class="k" type="button">Coin</button><button class="k" type="button">Start</button></div></div><div class="pl"><h4>Jogador 2</h4><div class="pnl"><span class="joy" aria-hidden="true"></span><div class="bt"><button class="b b2" type="button">B</button><button class="b c" type="button">C</button><button class="b d" type="button">D</button><button class="b g" type="button">G</button><button class="b a" type="button">A</button><button class="b e" type="button">E</button><button class="b f" type="button">F</button><button class="b h" type="button">H</button></div></div>
+<div class="kr"><button class="k" type="button">Coin</button><button class="k" type="button">Start</button></div></div></div></div>
 <p class="note">Na tela de teste de verdade, os botões acendem quando você aperta. Para sair, aperte <kbd>1P Start</kbd> + <kbd>A</kbd> juntos.</p>
 
 <h3>5.2 Mudar qual botão faz o quê (Custom Button)</h3>
@@ -249,7 +232,7 @@ td::before{display:none}td:first-child{font-size:1em}
 <div class="grid">
 <div class="card"><b>Credit Setting</b><p><em>Free play</em> é o modo família: sem moeda, e a saída do jogo é pelo menu de pausa. Opções com números (como 1:1 ou 2:1) ligam o modo moeda.</p></div>
 <div class="card"><b>Exit Game Mode</b><p>Só no modo moeda. Escolhe como sair do jogo (veja abaixo).</p></div>
-<div class="card"><b>Pause Menu</b><p><b>ON</b>: o botão de pausa abre rápido o menu com a opção de sair. <b>OFF</b>: desligado.</p></div>
+<div class="card"><b>Pause Menu</b><p><b>ON</b>: o menu de pausa abre rápido, com a opção de sair. <b>OFF</b>: desligado.</p></div>
 <div class="card"><b>Auto Exit</b><p><b>ON</b>: se ninguém mexer por 3 minutos, a placa volta ao menu. <b>OFF</b>: desligado.</p></div>
 <div class="card"><b>Select Game Mode</b><p>Só no modo moeda. <b>Always</b>: escolhe jogos sem moeda. <b>With Coin</b>: só depois de inserir moeda.</p></div>
 <div class="card"><b>Quality Optimization</b><p><b>ON</b>: melhora a imagem por programa. <b>OFF</b>: imagem original.</p></div>
@@ -303,11 +286,11 @@ td::before{display:none}td:first-child{font-size:1em}
 <h2>Resumo rápido</h2>
 <div class="q">
 <div><b>Procurar um jogo ou ver categorias</b>No menu de jogos, aperte <kbd>1P Start</kbd>.</div>
-<div><b>Pausar, guardar ou sair do jogo</b>Aperte o botão de pausa.</div>
+<div><b>Guardar o jogo ou sair</b>Use o menu de pausa: Save State ou Exit.</div>
 <div><b>Abrir as configurações</b>Aperte o botão <b>Setting</b>.</div>
 <div><b>Voltar de uma tela de configuração</b>Aperte <kbd>1P Start</kbd>.</div>
 <div><b>Guardar o que mudei</b>Save Setting, <kbd>A</kbd>, <b>YES</b>, <kbd>A</kbd>.</div>
-<div><b>Trocar o tamanho da imagem</b>Segure Setting, ligue a placa e solte depois de 2 segundos.</div>
+
 </div>
 <div class="callout"><b>Cuidado com a saúde</b><br>Limite o tempo de jogo. Não olhe para o monitor ou a TV por muito tempo em ambiente escuro. Faça pausas de vez em quando.</div>
 </section>
